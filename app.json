@@ -11,6 +11,11 @@
     "ios": {
       "supportsTablet": true
     },
+    "install": {
+      "exclude": [
+        "@shopify/react-native-skia"
+      ]
+    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
